@@ -48,7 +48,7 @@ label CENPA DiMeLo Tracks
 priority 3.25
 defaultIsClosed 0
 
-name cenpa_dimelo
+name cenpc_dimelo
 label CENPC DiMeLo Tracks
 priority 3.35
 defaultIsClosed 0

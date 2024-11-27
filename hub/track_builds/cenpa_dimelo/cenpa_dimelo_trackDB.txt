@@ -1,7 +1,7 @@
 track CENPA_DiMeLo_AS_5mC_Reads
 shortLabel CENPA DiMeLo AS 5mC Reads
 longLabel CENPA DiMeLo 5mC on Individual Reads (Adaptive Sampling)
-group dimelo
+group cenpa_dimelo
 visibility hide
 itemRgb on
 maxItems 1000000
@@ -13,7 +13,7 @@ priority 1
 track CENPA_DiMeLo_AS_6mA_Reads
 shortLabel CENPA DiMeLo 6mA Reads
 longLabel CENPA DiMeLo 6mA on Individual Reads (Adaptive Sampling)
-group dimelo
+group cenpa_dimelo
 visibility hide
 itemRgb on
 maxItems 1000000
