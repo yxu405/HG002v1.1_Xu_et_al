@@ -1,9 +1,9 @@
 # cenSat
-include track_builds/cenSat/cenSat_trackDb.txt
+include track_builds/cenSat/cenSat_trackDB.txt
 
 # alpha annotations
 include track_builds/asat_hor_sf_stv/as_hor_sf_stv_trackDB.txt
-include track_builds/asat_pjalpha_cenpb/pjalpha_cenpb_trackDb.txt
+include track_builds/asat_pjalpha_cenpb/pjalpha_cenpb_trackDB.txt
 
 # CDR annotations
 include track_builds/CDR/CDR_trackDB.txt
@@ -13,11 +13,11 @@ include track_builds/CDR/CDR_trackDB.txt
 # include track_builds/hifi_fiberseq/hifi_fiberseq_trackDB.txt
 
 # dimelo annotations
-# include track_builds/cenpa_dimelo/cenpa_dimelo_trackDB.txt
-# include track_builds/cenpc_dimelo/cenpc_dimelo_trackDB.txt
-# include track_builds/h3k9me3_dimelo/h3k9me3_dimelo_trackDB.txt
-# include track_builds/cenpa_age_dimelo/cenpa_age_dimelo_trackDB.txt
-# include track_builds/igg_dimelo/igg_dimelo_trackDB.txt
+include track_builds/cenpa_dimelo/cenpa_dimelo_trackDB.txt
+include track_builds/cenpc_dimelo/cenpc_dimelo_trackDB.txt
+include track_builds/h3k9me3_dimelo/h3k9me3_dimelo_trackDB.txt
+include track_builds/cenpa_age_dimelo/cenpa_age_dimelo_trackDB.txt
+include track_builds/igg_dimelo/igg_dimelo_trackDB.txt
 
 # methylation
 include track_builds/methylation/methylation_trackDB.txt
@@ -28,3 +28,7 @@ include track_builds/lowMAPQ/lowMAPQ_trackDB.txt
 # non B-DNA 
 include track_builds/nonB_sequence/nonB_trackDB.txt
 include track_builds/nonB_ipdratio/ipdratio_trackDB.txt
+
+# motif annotations
+include track_builds/ctcf/ctcf_trackDB.txt
+include track_builds/prdm9/prdm9_trackDB.txt

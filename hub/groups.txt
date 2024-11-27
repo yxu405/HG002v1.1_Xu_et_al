@@ -68,6 +68,16 @@ label Igg DiMeLo Tracks
 priority 3.75
 defaultIsClosed 0
 
+name motif
+label Motif Predictions
+priority 4
+defaultIsClosed 1
+
+name genes
+label Genes and Gene Predictions
+priority 4.25
+defaultIsClosed 1
+
 # Default/Example Track Groups:
 name genes
 label Genes and Gene Predictions
