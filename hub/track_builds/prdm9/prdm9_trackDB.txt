@@ -2,7 +2,7 @@ track PRDM9_Motifs
 shortLabel PRDM9 Motifs
 longLabel PRDM9 Motifs
 group motif
-visibility dense
+visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000

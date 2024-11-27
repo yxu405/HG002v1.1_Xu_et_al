@@ -2,7 +2,7 @@ track CTCF_Motifs
 shortLabel CTCF Motifs
 longLabel CTCF Motifs
 group motif
-visibility dense
+visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
