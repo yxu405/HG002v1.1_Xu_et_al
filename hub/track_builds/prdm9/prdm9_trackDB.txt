@@ -1,0 +1,11 @@
+track PRDM9_Motifs
+shortLabel PRDM9 Motifs
+longLabel PRDM9 Motifs
+group motif
+visibility dense
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/prdm9/PRDM9.HG002v1.1.bb
+type bigBed 9
+priority 1
