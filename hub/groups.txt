@@ -30,17 +30,17 @@ defaultIsClosed 0
 
 name nonB
 label non-B DNA
-priority 2.25
+priority 2.5
 defaultIsClosed 0
 
 name ont_fiberseq
 label NanoPore Fiber-seq Tracks
-priority 3
+priority 2.75
 defaultIsClosed 0
 
 name hifi_fiberseq
 label HiFi Fiber-seq Tracks
-priority 3.1
+priority 3
 defaultIsClosed 0
 
 name cenpa_dimelo
@@ -50,33 +50,35 @@ defaultIsClosed 0
 
 name cenpc_dimelo
 label CENPC DiMeLo Tracks
-priority 3.35
+priority 3.5
 defaultIsClosed 0
 
 name h3k9me3_dimelo
 label H3K9ME3 DiMeLo Tracks
-priority 3.45
+priority 3.75
 defaultIsClosed 0
 
 name old_v_young
-label DiMeLo CENPA High vs. Low Passage Comparison Tracks
-priority 3.5
+label CENPA DiMeLo High vs. Low Passage Cells
+priority 4
 defaultIsClosed 0
 
 name igg_dimelo
 label Igg DiMeLo Tracks
-priority 3.75
+priority 4.25
 defaultIsClosed 0
 
 name motif
 label Motif Predictions
-priority 4
-defaultIsClosed 1
+priority 4.5
+defaultIsClosed 0
 
 name genes
 label Genes and Gene Predictions
-priority 4.25
-defaultIsClosed 1
+priority 4.75
+defaultIsClosed 0
+
+
 
 # Default/Example Track Groups:
 name genes
