@@ -1,0 +1,49 @@
+track ONT_5mC_Pileup
+shortLabel ONT 5mC Pileup
+longLabel ONT 5mC Methylation per CpG
+group Q100_data
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+viewLimits 0:100
+bigDataUrl track_builds/Q100_tracks/ONT/Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5mC.bigwig
+type bigWig
+priority 1
+
+track ONT_5hmC_Pileup
+shortLabel ONT 5hmC Pileup
+longLabel ONT 5hmC Fraction Modified per CpG
+group Q100_data
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+viewLimits 0:100
+bigDataUrl track_builds/Q100_tracks/ONT/Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5hmC.bigwig
+type bigWig
+priority 1
+
+track ONT_5mC_Reads
+shortLabel ONT 5mC Reads
+longLabel ONT 5mC Methylation on Individual Q100 Project Reads
+group Q100_data
+visibility hide
+itemRgb on
+maxItems 10000
+maxWindowToDraw 500000
+bigDataUrl track_builds/Q100_tracks/ONT/Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bb
+type bigBed 12
+priority 1
+
+track ONT_CDR
+shortLabel ONT CDR 
+longLabel Centrodip CDR Predictions on ONT Q100 Data 
+group Q100_data
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/Q100_tracks/ONT/Q100_ONT_5mC_HG002v1.1.winnowmap_q10_10kb.centrodip.bb
+type bigBed 9
+priority 1

@@ -1,0 +1,23 @@
+track CTCF_Motifs
+shortLabel CTCF Motifs
+longLabel CTCF Motifs
+group motif
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/motif_tracks/ctcf/HG002v1.1.CTCF.bb
+type bigBed 9
+priority 1
+
+track CTCFL_Motifs
+shortLabel CTCFL Motifs
+longLabel CTCFL Motifs 
+group motif
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/motif_tracks/ctcf/HG002v1.1.CTCFL.bb
+type bigBed 9
+priority 1

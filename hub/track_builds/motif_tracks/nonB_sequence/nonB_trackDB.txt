@@ -1,0 +1,83 @@
+track nonB_APR
+shortLabel A-Phased Repeats (bent DNA)
+longLabel nonB DNA A-Phased Repeats (bent DNA)
+group motif
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/motif_tracks/nonB_sequence/HG002v1.1_APR.gff.bb
+type bigBed 9
+priority 1
+
+track nonB_DR
+shortLabel Direct Repeats (slipped DNA)
+longLabel nonB DNA Direct Repeats (slipped DNA)
+group motif
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/motif_tracks/nonB_sequence/HG002v1.1_DR.gff.bb
+type bigBed 9
+priority 1
+
+track nonB_GQ
+shortLabel G-Quadruplex Motifs
+longLabel nonB DNA G-Quadruplex Motifs
+group motif
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/motif_tracks/nonB_sequence/HG002v1.1_GQ.gff.bb
+type bigBed 9
+priority 1
+
+track nonB_IR
+shortLabel Inverted Repeats (cruciform DNA)
+longLabel nonB DNA Inverted Repeats (cruciform DNA)
+group motif
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/motif_tracks/nonB_sequence/HG002v1.1_IR.gff.bb
+type bigBed 9
+priority 1
+
+track nonB_MR
+shortLabel Mirrored Repeat Motifs (triplex DNA)
+longLabel nonB DNA Mirrored Repeats (triplex DNA)
+group motif
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/motif_tracks/nonB_sequence/HG002v1.1_MR.gff.bb
+type bigBed 9
+priority 1
+
+track nonB_STR
+shortLabel Short Tandem Repeats
+longLabel nonB DNA Short Tandem Repeats
+group motif
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/motif_tracks/nonB_sequence/HG002v1.1_STR.gff.bb
+type bigBed 9
+priority 1
+
+track nonB_Z
+shortLabel Z DNA Motifs
+longLabel nonB DNA Z DNA Motifs
+group motif
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/motif_tracks/nonB_sequence/HG002v1.1_Z.gff.bb
+type bigBed 9
+priority 1

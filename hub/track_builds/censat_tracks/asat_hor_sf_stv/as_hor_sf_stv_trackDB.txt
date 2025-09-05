@@ -1,0 +1,35 @@
+track AS_HOR
+shortLabel A-Sat HOR
+longLabel Alpha Satellite Higher Order Repeat
+group CenSat
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/censat_tracks/asat_hor_sf_stv/hg002v1.1.as_hor.bb
+type bigBed 9
+priority 1
+
+track AS_SF
+shortLabel A-Sat SF
+longLabel Alpha Satellite Super Family
+group CenSat
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/censat_tracks/asat_hor_sf_stv/hg002v1.1.as_sf.bb
+type bigBed 9
+priority 1
+
+track AS_StV
+shortLabel A-Sat StV
+longLabel Alpha Satellite Structural Variants
+group CenSat
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/censat_tracks/asat_hor_sf_stv/hg002v1.1.as_stv.bb
+type bigBed 9
+priority 1

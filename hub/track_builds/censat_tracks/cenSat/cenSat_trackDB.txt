@@ -1,0 +1,35 @@
+track CenSat
+shortLabel CenSat
+longLabel Centromeric Satellite Annotations
+group CenSat
+visibility dense
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/censat_tracks/cenSat/hg002v1.1.cenSatv2.0.bb
+type bigBed 9
+priority 1
+
+track CenSatStrand
+shortLabel CenSat Strand
+longLabel HG002v1.1 Centromeric Satellite Strand Annotations
+group CenSat
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/censat_tracks/cenSat/hg002v1.1.SatelliteStrandv2.0.bb
+type bigBed 9
+priority 1
+
+track CenSat_RM
+shortLabel CenSat Repeat Masker
+longLabel Centromeric Satellite Repeat Masker Annotations
+group CenSat
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/censat_tracks/cenSat/hg002v1.1.RepeatMasker.bb
+type bigBed 4
+priority 1
