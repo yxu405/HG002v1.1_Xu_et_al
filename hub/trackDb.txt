@@ -37,9 +37,9 @@ include track_builds/Q100_tracks/HiFi/HiFi_trackDB.txt
 
 ### === Fiber-seq Sequencing Data === ###
 # ONT Fiberseq 
-# include track_builds/fiberseq_tracks/ont_fiberseq/fiberseq_trackDB.txt
+include track_builds/fiberseq_tracks/ont_fiberseq/fiberseq_trackDB.txt
 # HiFi Fiberseq
-# include track_builds/fiberseq_tracks/hifi_fiberseq/hifi_fiberseq_trackDB.txt
+include track_builds/fiberseq_tracks/hifi_fiberseq/hifi_fiberseq_trackDB.txt
 
 
 ### === DiMeLo Sequencing Data === ###

@@ -24,7 +24,7 @@ priority 5
 defaultIsClosed 0
 
 name fiberseq
-label NanoPore Fiber-seq Tracks
+label Fiber-seq Tracks
 priority 6
 defaultIsClosed 0
 
