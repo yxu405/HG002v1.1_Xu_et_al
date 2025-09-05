@@ -3,110 +3,42 @@ label Custom
 priority 1
 defaultIsClosed 1
 
-name CenSat
-label Centromeric Satellite Annotations
-priority 1.25
-defaultIsClosed 0
-
-name alphaSat
-label Alpha Satellite Specific Annotations
-priority 1.50
-defaultIsClosed 0
-
-name CDR
-label Centromere Dip Region (CDR) Annotations
-priority 1.75
-defaultIsClosed 0
-
-name methylation
-label Methylation
+name map
+label Mapping and Sequencing
 priority 2
 defaultIsClosed 0
 
-name map
-label Mapping and Sequencing
-priority 2.25
-defaultIsClosed 0
-
-name nonB
-label non-B DNA
-priority 2.5
-defaultIsClosed 0
-
-name ont_fiberseq
-label NanoPore Fiber-seq Tracks
-priority 2.75
-defaultIsClosed 0
-
-name hifi_fiberseq
-label HiFi Fiber-seq Tracks
+name CenSat
+label Centromeric Satellite Annotations
 priority 3
-defaultIsClosed 0
-
-name cenpa_dimelo
-label CENPA DiMeLo Tracks
-priority 3.25
-defaultIsClosed 0
-
-name cenpc_dimelo
-label CENPC DiMeLo Tracks
-priority 3.5
-defaultIsClosed 0
-
-name h3k9me3_dimelo
-label H3K9ME3 DiMeLo Tracks
-priority 3.75
-defaultIsClosed 0
-
-name old_v_young
-label CENPA DiMeLo High vs. Low Passage Cells
-priority 4
-defaultIsClosed 0
-
-name igg_dimelo
-label Igg DiMeLo Tracks
-priority 4.25
 defaultIsClosed 0
 
 name motif
 label Motif Predictions
-priority 4.5
-defaultIsClosed 0
-
-name genes
-label Genes and Gene Predictions
-priority 4.75
-defaultIsClosed 0
-
-
-
-# Default/Example Track Groups:
-name genes
-label Genes and Gene Predictions
-priority 3
-defaultIsClosed 1
-
-name pub
-label Phenotype and Literature
-priority 3.5
-defaultIsClosed 1
-
-name rna
-label mRNA and EST
 priority 4
-defaultIsClosed 1
+defaultIsClosed 0
 
-name regulation
-label Expression and Regulation
+name Q100_data
+label Q100 Sequencing Data
 priority 5
-defaultIsClosed 1
+defaultIsClosed 0
 
-name compGeno
-label Comparative Genomics
+name fiberseq
+label NanoPore Fiber-seq Tracks
 priority 6
-defaultIsClosed 1
+defaultIsClosed 0
 
-name x
-label Experimental Tracks
-priority 10
-defaultIsClosed 1
+name dimelo
+label DiMeLo Tracks
+priority 7
+defaultIsClosed 0
+
+name old_v_young
+label CENPA DiMeLo High vs. Low Passage Cells
+priority 8
+defaultIsClosed 0
+
+name igg_dimelo
+label Igg DiMeLo Tracks
+priority 9
+defaultIsClosed 0

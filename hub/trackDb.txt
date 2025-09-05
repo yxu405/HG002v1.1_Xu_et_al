@@ -1,34 +1,57 @@
-# cenSat
-include track_builds/cenSat/cenSat_trackDB.txt
-
-# alpha annotations
-include track_builds/asat_hor_sf_stv/as_hor_sf_stv_trackDB.txt
-include track_builds/asat_pjalpha_cenpb/pjalpha_cenpb_trackDB.txt
-
-# CDR annotations
-include track_builds/CDR/CDR_trackDB.txt
-
-# fiberseq annotations
-# include track_builds/ont_fiberseq/ont_fiberseq_trackDB.txt
-# include track_builds/hifi_fiberseq/hifi_fiberseq_trackDB.txt
-
-# dimelo annotations
-include track_builds/cenpa_dimelo/cenpa_dimelo_trackDB.txt
-include track_builds/cenpc_dimelo/cenpc_dimelo_trackDB.txt
-include track_builds/h3k9me3_dimelo/h3k9me3_dimelo_trackDB.txt
-include track_builds/cenpa_age_dimelo/cenpa_age_dimelo_trackDB.txt
-include track_builds/igg_dimelo/igg_dimelo_trackDB.txt
-
-# methylation
-include track_builds/methylation/methylation_trackDB.txt
-
+### === Mapping and Sequencing === ###
 # mappability
-include track_builds/lowMAPQ/lowMAPQ_trackDB.txt
+include track_builds/mapping_tracks/lowMAPQ/lowMAPQ_trackDB.txt
 
-# non B-DNA 
-include track_builds/nonB_sequence/nonB_trackDB.txt
-include track_builds/nonB_ipdratio/ipdratio_trackDB.txt
+# flagger QC - Need to ask @Julian Lucas
 
-# motif annotations
-include track_builds/ctcf/ctcf_trackDB.txt
-include track_builds/prdm9/prdm9_trackDB.txt
+
+### === Centromeric Satellite Annotations === ###
+# cenSat, CenSatStrand, CenSat_RM Tracks
+include track_builds/censat_tracks/cenSat/cenSat_trackDB.txt
+
+# Alpha Specific Annotaions
+include track_builds/censat_tracks/asat_hor_sf_stv/as_hor_sf_stv_trackDB.txt
+
+# Need something for HSat2/3 subfamilies - Need to ask @Julian Lucas
+
+
+### === Motif Prediction Tracks === ###
+# CTCF Motifs
+include track_builds/motif_tracks/ctcf/ctcf_trackDB.txt
+# PRDM9 Motifs
+include track_builds/motif_tracks/prdm9/prdm9_trackDB.txt
+# PJ-alpha + CENP-B Box Motifs
+include track_builds/motif_tracks/asat_pjalpha_cenpb/pjalpha_cenpb_trackDB.txt
+# non B-DNA Motifs
+include track_builds/motif_tracks/nonB_sequence/nonB_trackDB.txt
+# IPD Ratio Tracks (NOT INCLUDED)
+# include track_builds/nonB_ipdratio/ipdratio_trackDB.txt
+
+
+### === Q100 Sequencing Data === ###
+# ONT 
+include track_builds/Q100_tracks/ONT/ONT_trackDB.txt
+# HiFi
+include track_builds/Q100_tracks/HiFi/HiFi_trackDB.txt
+
+
+### === Fiber-seq Sequencing Data === ###
+# ONT Fiberseq 
+# include track_builds/fiberseq_tracks/ont_fiberseq/fiberseq_trackDB.txt
+# HiFi Fiberseq
+# include track_builds/fiberseq_tracks/hifi_fiberseq/hifi_fiberseq_trackDB.txt
+
+
+### === DiMeLo Sequencing Data === ###
+# CENP-A DiMelo Tracks
+include track_builds/dimelo_tracks/dimelo_cenpa/cenpa_dimelo_trackDB.txt
+# CENP-C DiMelo Tracks
+include track_builds/dimelo_tracks/dimelo_cenpc/cenpc_dimelo_trackDB.txt
+# H3K9me3 DiMelo Tracks
+include track_builds/dimelo_tracks/dimelo_h3k9me3/h3k9me3_dimelo_trackDB.txt
+# DiMeLo Tracks from Aging Experiment
+include track_builds/dimelo_tracks/dimelo_aging/cenpa_age_dimelo_trackDB.txt
+
+
+### === DiMeLo IGG Sequencing Data === ###
+include track_builds/dimelo_igg_tracks/igg_dimelo_trackDB.txt
